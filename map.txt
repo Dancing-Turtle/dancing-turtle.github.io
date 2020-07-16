@@ -1,0 +1,23 @@
+rm -r hnh-map/
+docker run -d -v /srv/hnh-map:/map -d -p 80:8080 andyleap/hnh-auto-mapper:v-4
+
+sudo apt-get update
+sudo apt install docker.io
+the 2 cmds to run
+sudo systemctl start docker
+
+-d to run in background
+
+docker kill $(docker ps -q)
+
+269040547744-h2239e4lfrnt6jfuntml5a3g7gd2768n.apps.googleusercontent.com
+
+zCeGhI4zOv0r_ZI6mkon30Ih
+
+sed -i "s|269040547744-h2239e4lfrnt6jfuntml5a3g7gd2768n.apps.googleusercontent.com|INSERT_DOMAIN_HERE|g" gdrive
+sed -i "s|zCeGhI4zOv0r_ZI6mkon30Ih|INSERT_TOKEN_HERE|g" gdrive
+
+if(this.item.resname().contains("spe")){
+	quality.qwtex = Text.renderstroked(Math.round(560) + "", Color.ORANGE, Color.red, num10Fnd).tex();
+	PBotUtils.sysMsg("What a nice item!");
+}
